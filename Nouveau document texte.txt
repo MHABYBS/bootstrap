@@ -1,0 +1,30 @@
+ <div align="center">
+          <div class="course1">
+              <button class="btnCourses1" ><a href="#ex1" rel="modal:open">View more</a></button>
+          </div>
+          <div class="course2">
+                <button class="btnCourses2"><a href="#ex1" rel="modal:open">View more</a></button>
+          </div>
+          <div class="course3">
+                <button class="btnCourses3"><a href="#ex1" rel="modal:open">View more</a></button>
+            </div>
+            <div class="course4">
+                <button class="btnCourses4" ><a href="#ex1" rel="modal:open">View more</a></button>
+            </div>
+            <div class="course5">
+                  <button class="btnCourses5"><a href="#ex1" rel="modal:open">View more</a></button>
+            </div>
+            <div class="course6">
+                  <button class="btnCourses6"><a href="#ex1" rel="modal:open">View more</a></button>
+              </div>
+              <div class="course7">
+                <button class="btnCourses7" ><a href="#ex1" rel="modal:open">View more</a></button>
+            </div>
+            <div class="course8">
+                  <button class="btnCourses8"><a href="#ex1" rel="modal:open">View more</a></button>
+            </div>
+            <div class="course9">
+                  <button class="btnCourses9"><a href="#ex1" rel="modal:open">View more</a></button>
+              </div>
+          
+        </div>

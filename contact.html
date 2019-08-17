@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+         <title> final checkpoint </title>
+       
+
+    </head>
+    <body>
+        <!-- WRITE YOUR HEAD BODY HERE--> 
+        <nav class="navbar navbar-default" style="background: transparent">
+            <!-- <div class="container-fluid"> -->
+              <div class="navbar-header">
+                    <img src="https://gomycode.tn/images/section2GMCLogo.png" alt="sorry" height=50 width=50 class="logo">
+                  </div>
+                  <ul class="nav navbar-nav" id="ulNav">
+                
+                              
+
+
+   
+    <li> <a class="active" href="index.html">Home</a></li> 
+    <li><a href="courses.html"> Courses</a></li> 
+    <li><a href="contact.html"> Contact</a></li>
+        </ul> 
+    </div>
+    </nav>
+    <center>
+            <div class="hh2">
+                    <h1 class="hea2" >Contact</h1>    
+          
+                    </div>
+   
+    <form id="myForm">
+        <br>
+        <label><p style="color:aliceblue">Name</p></label><input type="text" class="form-control" style="width: 10%" onfocus="this.value=''" value="write your name"> 
+        <br>
+        <br>
+        <label><p style="color:aliceblue" >Track</p></label> <input type="text" class="form-control" style="width: 10%" onfocus="this.value=''" value="write your track">
+        <br>
+        <br>
+        <select class="form-control" style="width: 10%">
+            <option>web</option>
+            <option>game</option>
+            <option>AI</option>
+        </select>
+        <br>
+        <br>
+        
+        <label><p style="color:aliceblue">Email</p></label><input type="email" class="form-control" style="width: 10%" onfocus="this.value=''" value="write your email"> 
+        <br>
+        <br>
+        <label><p style="color:aliceblue">Your phone number</p></label><input type="number" class="form-control" style="width: 10%" onfocus="this.value=''" value="00000000"> 
+        <br>
+        <br>
+        <br>
+    </form>
+    <div class="bt">
+    <input type="button" onclick="submit()" value="submit" class="bt">
+</div>
+    <script>
+            function submit() {
+                document.getElementById("myForm").reset();
+            }
+            </script>
+
+</center>
+    
+    </body>
+</html>
